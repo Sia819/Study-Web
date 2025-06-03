@@ -1,3 +1,5 @@
+# [ 1강 ] Typescript 컴파일시 세부설정 (tsconfig.json)
+
 ## tsconfig.json 기본 설정
 
 프로젝트 루트에 **tsconfig.json** 파일을 두면 TypeScript 컴파일러( `tsc` )에게 “어떤 규칙으로 `.ts` / `.tsx` 파일을 `.js` 로 변환할지”를 지시할 수 있습니다.
