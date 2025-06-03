@@ -1,11 +1,11 @@
 /*====================================================================================================
-[ 4강 ]
+[ 4강 ] 함수에 타입 지정하는 법 & void 타입
 # 0. 함수란?
 - 길고 복잡한 코드를 하나의 단어 축약하여 쓸 수 있는 기능을 수행
 - 입력값과 출력값을 가지는 블랙박스 역할
 - parameter로 input(입력) 수행, return으로 output(출력) 수행
 
-*///====================================================================================================
+*/ //====================================================================================================
 // 매개변수가 없는 함수
 
 function MyFunc0() {
@@ -81,7 +81,7 @@ function MyFunc10(x: number | undefined) {}
 // 만약 MyFunc() 처럼 파라미터를 입력하지 않는다면
 // 자동으로 x 파라미터는 undifined 타입이 된다.
 function MyFunc11(x?: number) {
-  console.log("MyFunc11 result : \n" + x) // undefined 출력됨.
+  console.log("MyFunc11 result : \n" + x); // undefined 출력됨.
 }
 MyFunc11();
 
@@ -123,7 +123,7 @@ function MyFunc13(x: number | string) {
 
 console.log("[ HomeWork1 - PrintUserName ]");
 function PrintUserName(username?: string): void {
-  if (typeof(username) === "undefined") {
+  if (typeof username === "undefined") {
     console.log("이름이 없습니다.");
   } else {
     console.log("안녕하세요 " + username);
