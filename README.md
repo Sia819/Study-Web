@@ -4,7 +4,7 @@
 
 ## codingapple_JavaScript-Basic (JavaScript 기초)
 
-<img src="images/jsbasic.png" alt="jabasic" width="200">
+<img src="images/js_basic.png" alt="js_basic" width="200">
 
 각 part 폴더는 해당 강의에서 실습한 소스코드입니다.
 
@@ -63,7 +63,7 @@
 
 ## codingapple_NextJS
 
-<img src="images/nextjs.png" alt="nextjs" width="200">
+<img src="images/next_js.png" alt="next_js" width="200">
 
 각 part 폴더는 해당 강의에서 실습한 소스코드입니다.
 
