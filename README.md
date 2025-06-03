@@ -115,38 +115,38 @@
 
 각 part 폴더는 해당 강의에서 실습한 소스코드입니다.
 
-- [x] part0 : Typescript 필수문법 10분 정리와 설치 셋팅 (Vue, React 포함)
-- [x] part1 : Typescript 컴파일시 세부설정 (tsconfig.json)
-- [x] part2 : 타입스크립트 기본 타입 정리 (primitive types)
-- [x] part3 : 타입을 미리 정하기 애매할 때 (union type, any, unknown)
-- [x] part4 : 함수에 타입 지정하는 법 & void 타입
-- [x] part5 : 타입 확정하기 Narrowing & Assertion
+- [x] [part0](codingapple_TypeScript/part0/index.ts) : Typescript 필수문법 10분 정리와 설치 셋팅 (Vue, React 포함)
+- [x] [part1](codingapple_TypeScript/part1/part1.md) : Typescript 컴파일시 세부설정 (tsconfig.json)
+- [x] [part2](codingapple_TypeScript/part2/index.ts) : 타입스크립트 기본 타입 정리 (primitive types)
+- [x] [part3](codingapple_TypeScript/part3/index.ts) : 타입을 미리 정하기 애매할 때 (union type, any, unknown)
+- [x] [part4](codingapple_TypeScript/part4/index.ts) : 함수에 타입 지정하는 법 & void 타입
+- [x] [part5](codingapple_TypeScript/part5/index.ts) : 타입 확정하기 Narrowing & Assertion
 <!--
-- [x] part6 : 타입도 변수에 담아쓰세요 type 키워드 써서 & readonly
-- [x] part7 : iteral Types로 만드는 const 변수 유사품
-- [x] part8 : 함수와 methods에 type alias 지정하는 법
-- [x] part9 : 타입스크립트로 HTML 변경과 조작할 때 주의점
-- [x] part10 : (JS문법시간) class 키워드 알아보기
-- [x] part11 : (JS 문법시간) prototype 문법 짚어보기
-- [x] part12 : class 만들 때 타입지정 가능
-- [x] part13 : Object에 타입지정하려면 interface 이것도 있음
-- [x] part14 : 함수 rest 파라미터, destructuring 할 때 타입지정
-- [x] part15 : Narrowing 할 수 있는 방법 더 알아보기
-- [x] part16 : 함수에 사용하는 never 타입도 있긴 합니다
-- [x] part17 : public, private 쓰는거 보니까 타입스크립트 귀여운편
-- [x] part18 : class에서 사용가능한 protected, static 키워드
-- [x] part19 : 저번시간 숙제 해설 (class 만들기)
-- [x] part20 : 타입도 import export 해서 씁니다 그리고 namespace
-- [x] part21 : 타입을 파라미터로 입력하는 Generic
-- [x] part22 : React + TypeScript 사용할 때 알아야할 점
-- [x] part23 : React + TypeScript 사용할 때 알아야할 점 2 : Redux toolkit
-- [x] part24 : array 자료에 붙일 수 있는 tuple type
-- [x] part25 : 외부 파일 이용시 declare & 이상한 특징인 ambient module
-- [x] part26 : d.ts 파일 이용하기
-- [x] part27 : implements 키워드
-- [x] part28 : object index signatures
-- [x] part29 : object 타입 변환기 만들기
-- [x] part30 : 조건문으로 타입만들기 & infer
+- [x] [part6](codingapple_TypeScript/part6/index.ts) : 타입도 변수에 담아쓰세요 type 키워드 써서 & readonly
+- [x] [part7](codingapple_TypeScript/part7/index.ts) : iteral Types로 만드는 const 변수 유사품
+- [x] [part8](codingapple_TypeScript/part8/index.ts) : 함수와 methods에 type alias 지정하는 법
+- [x] [part9](codingapple_TypeScript/part9/index.ts) : 타입스크립트로 HTML 변경과 조작할 때 주의점
+- [x] [part10](codingapple_TypeScript/part10/index.ts) : (JS문법시간) class 키워드 알아보기
+- [x] [part11](codingapple_TypeScript/part11/index.ts) : (JS 문법시간) prototype 문법 짚어보기
+- [x] [part12](codingapple_TypeScript/part12/index.ts) : class 만들 때 타입지정 가능
+- [x] [part13](codingapple_TypeScript/part13/index.ts) : Object에 타입지정하려면 interface 이것도 있음
+- [x] [part14](codingapple_TypeScript/part14/index.ts) : 함수 rest 파라미터, destructuring 할 때 타입지정
+- [x] [part15](codingapple_TypeScript/part15/index.ts) : Narrowing 할 수 있는 방법 더 알아보기
+- [x] [part16](codingapple_TypeScript/part16/index.ts) : 함수에 사용하는 never 타입도 있긴 합니다
+- [x] [part17](codingapple_TypeScript/part17/index.ts) : public, private 쓰는거 보니까 타입스크립트 귀여운편
+- [x] [part18](codingapple_TypeScript/part18/index.ts) : class에서 사용가능한 protected, static 키워드
+- [x] [part19](codingapple_TypeScript/part19/part19.md) : 저번시간 숙제 해설 (class 만들기)
+- [x] [part20](codingapple_TypeScript/part20/index.ts) : 타입도 import export 해서 씁니다 그리고 namespace
+- [x] [part21](codingapple_TypeScript/part21/index.ts) : 타입을 파라미터로 입력하는 Generic
+- [x] [part22](codingapple_TypeScript/part22/index.ts) : React + TypeScript 사용할 때 알아야할 점
+- [x] [part23](codingapple_TypeScript/part23/index.ts) : React + TypeScript 사용할 때 알아야할 점 2 : Redux toolkit
+- [x] [part24](codingapple_TypeScript/part24/index.ts) : array 자료에 붙일 수 있는 tuple type
+- [x] [part25](codingapple_TypeScript/part25/index.ts) : 외부 파일 이용시 declare & 이상한 특징인 ambient module
+- [x] [part26](codingapple_TypeScript/part26/index.ts) : d.ts 파일 이용하기
+- [x] [part27](codingapple_TypeScript/part27/part27.md) : implements 키워드
+- [x] [part28](codingapple_TypeScript/part28/index.ts) : object index signatures
+- [x] [part29](codingapple_TypeScript/part29/index.ts) : object 타입 변환기 만들기
+- [x] [part30](codingapple_TypeScript/part30/index.ts) : 조건문으로 타입만들기 & infer
 
 -->
 
