@@ -115,3 +115,48 @@ let myUnknown2: unknown = 1;
 // 다음 강의에서 배울 Narrowing을 사용하면 이러한 문제들을 해결할 수 있다.
 
 //====================================================================================================
+// (숙제1) 다음 변수 4개에 타입을 지정해봅시다.
+/*
+```
+let user = 'kim';
+let age = undefined;
+let married = false;
+let 철수 = [user, age, married];
+```
+*/
+// 허전하니까 변수 4개에 타입빨리 집어넣어봅시다.
+// (조건) age 변수엔 undefined 말고 숫자도 들어올 수 있습니다.
+
+let user: string = "kim";
+let age1: number = undefined;
+age1 = 123;
+let married: boolean = false;
+let 철수: (boolean | number | string)[] = [user, age1, married];
+
+//====================================================================================================
+// (숙제2) 학교라는 변수에 타입지정해보십시오.
+/*
+```
+let 학교 = {
+  score: [100, 97, 84],
+  teacher: 'Phil',
+  friend: 'John'
+}
+학교.score[4] = false;
+학교.friend = ['Lee' , 학교.teacher]
+```
+*/
+// 타입지정을 안해줬더니 터미널에 에러가 나는군요.
+// 에러안나게 학교라는 변수에 타입좀 지정해줍시다.
+
+let 학교: {
+  score: (boolean | number)[];
+  teacher: string;
+  friend: string | (boolean | string)[];
+} = {
+  score: [100, 97, 84],
+  teacher: "Phil",
+  friend: "John",
+};
+학교.score[4] = false;
+학교.friend = ["Lee", 학교.teacher];
