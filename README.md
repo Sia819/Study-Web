@@ -1,12 +1,12 @@
 # Study-Web
 
-웹 프로그래밍을 공부하며 정리한 리포지토리 입니다.
+웹 프로그래밍을 공부하며 정리한 리포지토리 입니다.  
 
 ## codingapple_JavaScript-Basic (JavaScript 기초)
 
 <img src="images/js_basic.png" alt="js_basic" width="200">
 
-각 part 폴더는 해당 강의에서 실습한 소스코드입니다.
+각 part 폴더는 해당 강의에서 실습한 소스코드입니다.  
 
 - [x] part0 : 강의 소개와 자바스크립트의 근본
 <!--
@@ -113,7 +113,8 @@
 
 <img src="images/ts.png" alt="ts" width="200">
 
-각 part 폴더는 해당 강의에서 실습한 소스코드입니다.
+> 각 part 폴더는 해당 강의에서 실습한 소스코드입니다.  
+단순 *.ts 파일 실행 시 VSCode Extension [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) 를 사용해서 직접 *.ts 파일을 실행하였음.
 
 - [x] [part0](codingapple_TypeScript/part0/index.ts) : Typescript 필수문법 10분 정리와 설치 셋팅 (Vue, React 포함)
 - [x] [part1](codingapple_TypeScript/part1/part1.md) : Typescript 컴파일시 세부설정 (tsconfig.json)
